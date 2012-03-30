@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/acpmenu.dtd">
+<data>
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.smallbutton">
+			<parent>wcf.acp.menu.link.content</parent>
+			<permissions>admin.smallbutton.canUse</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.smallbutton.list">
+			<parent>wcf.acp.menu.link.smallbutton</parent>
+			<link>index.php?page=SmallButtonList</link>
+			<order>1</order>
+			<permissions>admin.smallbutton.canUse</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.smallbutton.add">
+			<parent>wcf.acp.menu.link.smallbutton</parent>
+			<link>index.php?form=SmallButtonAdd</link>
+			<order>1</order>
+			<permissions>admin.smallbutton.canAdd</permissions>
+		</acpmenuitem>
+	</import>
+</data>

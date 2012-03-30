@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS wbb1_1_smallbutton;
+CREATE TABLE wbb1_1_smallbutton (
+	smallbuttonID int(11) NOT NULL AUTO_INCREMENT,
+	showOrder INT(11) UNSIGNED NOT NULL,
+	imgSrc VARCHAR(45) NOT NULL,
+	name VARCHAR(45) NOT NULL,
+	description VARCHAR(45) NOT NULL,
+	linkTo VARCHAR(100) NOT NULL,
+	isDisabled TINYINT(1) NOT NULL,
+	PRIMARY KEY (smallbuttonID)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;

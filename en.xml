@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<!-- Module -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.thread_smallbutton_enable"><![CDATA[Thread Smallbutton]]></item>
+		<item name="wcf.acp.option.thread_smallbutton_enable.description"><![CDATA[Enables additional smallbutton in the Thread]]></item>
+	</category>
+
+	<!-- Groups -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.smallbutton"><![CDATA[Smallbuttons]]></item>
+		<item name="wcf.acp.group.option.category.admin.smallbutton.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.user.smallbutton"><![CDATA[Smallbuttons]]></item>
+		<item name="wcf.acp.group.option.category.user.smallbutton.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.smallbutton.canUse"><![CDATA[Can Use Smallbutons]]></item>
+		<item name="wcf.acp.group.option.user.smallbutton.canUse.description"><![CDATA[Members of this group can Use the smallbuttons.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canUse"><![CDATA[Can Manage Smallbutons]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canUse.description"><![CDATA[Members of this group can Manage the smallbuttons.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canAdd"><![CDATA[Can Add Smallbutons]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canAdd.description"><![CDATA[Members of this group can Add the smallbuttons.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canEdit"><![CDATA[Can Edit Smallbutons]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canEdit.description"><![CDATA[Members of this group can Edit the smallbuttons.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canDelete"><![CDATA[Can Delete Smallbutons]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canDelete.description"><![CDATA[Members of this group can Delete the smallbuttons.]]></item>
+	</category>
+
+	<!-- ACP Small Button -->
+	<category name="wbb.acp.smallbutton">
+		<item name="wbb.acp.smallbutton.list"><![CDATA[SmallButton List]]></item>
+		<item name="wbb.acp.smallbutton.list.smallbuttonID"><![CDATA[ID]]></item>
+		<item name="wbb.acp.smallbutton.list.imgSrc"><![CDATA[Icon]]></item>
+		<item name="wbb.acp.smallbutton.list.noItem"><![CDATA[No Smallbuttons available]]></item>
+		<item name="wbb.acp.smallbutton.list.name"><![CDATA[Link Name]]></item>
+		<item name="wbb.acp.smallbutton.list.description"><![CDATA[Link Description]]></item>
+		<item name="wbb.acp.smallbutton.list.linkTo"><![CDATA[Link]]></item>
+		<item name="wbb.acp.smallbutton.add"><![CDATA[Add Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.list.headline"><![CDATA[There are {#$items} Smallbuttons]]></item>
+		<item name="wbb.acp.smallbutton.disable"><![CDATA[Disable Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.enable"><![CDATA[Enable Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.delete"><![CDATA[Delete Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.delete.sure"><![CDATA[Are they sure to Delete This SmallButton ?]]></item>
+		<item name="wbb.acp.smallbutton.edit.success"><![CDATA[Smallbutton was last]]></item>
+		<item name="wbb.acp.smallbutton.edit"><![CDATA[Edit Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.data"><![CDATA[Add Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.description"><![CDATA[Link Description]]></item>
+		<item name="wbb.acp.smallbutton.linkTo"><![CDATA[Link]]></item>
+		<item name="wbb.acp.smallbutton.add.success"><![CDATA[Smallbutton was successfully created]]></item>
+		<item name="wbb.acp.smallbutton.imgSrc"><![CDATA[Icon]]></item>
+		<item name="wbb.acp.smallbutton.data"><![CDATA[Add Smallbutton]]></item>
+		<item name="wbb.acp.smallbutton.showOrder"><![CDATA[Order]]></item>
+		<item name="wbb.acp.smallbutton.name"><![CDATA[Name]]></item>
+		<item name="wbb.acp.smallbutton.description.description"><![CDATA[Here you specify what is in Hover]]></item>
+		<item name="wbb.acp.smallbutton.linkTo.description"><![CDATA[Here you will indicate on which side of the smallbutton left. Example: index.php? Page = index]]></item>
+		<item name="wbb.acp.smallbutton.showOrder.description"><![CDATA[Enter the location of the smallbuttons.]]></item>
+		<item name="wbb.acp.smallbutton.name.description"><![CDATA[Name of the Smallbutton.]]></item>
+		<item name="wbb.acp.smallbutton.imgSrc.description"><![CDATA[Please note! The icon MUST be used in the folder wbb/icon/ and are available in sizes S (S = 16px x 16px) and as "PNG"! <br >
+																																		Enter into this field, only the "file identifier", NO size and NO indication file extension! <br>
+		For example, is recorded for the existing icons "iconS.png in this box ONLY "icon".]]></item>
+	</category>
+
+	<!-- ACP Menu -->
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.smallbutton"><![CDATA[Thread Smallbutton]]></item>
+		<item name="wcf.acp.menu.link.smallbutton.add"><![CDATA[New Smallbutton]]></item>
+		<item name="wcf.acp.menu.link.smallbutton.list"><![CDATA[Smallbutton List]]></item>
+	</category>
+</language>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/groupoptions.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="admin.smallbutton">
+				<parent>admin</parent>
+			</category>
+			<category name="user.smallbutton">
+				<parent>user.board</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="user.smallbutton.canUse">
+				<categoryname>user.smallbutton</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>1</showorder>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="admin.smallbutton.canUse">
+				<categoryname>admin.smallbutton</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>1</showorder>
+			</option>
+			<option name="admin.smallbutton.canAdd">
+				<categoryname>admin.smallbutton</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>2</showorder>
+			</option>
+			<option name="admin.smallbutton.canEdit">
+				<categoryname>admin.smallbutton</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>3</showorder>
+			</option>
+			<option name="admin.smallbutton.canDelete">
+				<categoryname>admin.smallbutton</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>4</showorder>
+			</option>
+		</options>
+	</import>
+</data>

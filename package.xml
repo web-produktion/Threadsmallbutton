@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.web-produktion.threadsmallbutton" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename language="de"><![CDATA[Threadsmallbutton]]></packagename>
+		<packagename language="de-informal"><![CDATA[Threadsmallbutton]]></packagename>
+		<version>2.0.1</version>
+		<date>2011-04-05</date>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Jean-Marc Licht</author>
+		<authorurl>http://www.web-produktion.com</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<acptemplates>acptemplates.tar</acptemplates>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<script>acp/install_smallbutton.php</script>
+		
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="tr">tr.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		
+		<!-- config -->
+		<acpmenu>acpmenu.xml</acpmenu>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<options>options.xml</options>
+		<sql>install.sql</sql>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0">
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="tr">tr.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+</package>

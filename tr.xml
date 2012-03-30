@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="tr">
+	<!-- Module -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.thread_smallbutton_enable"><![CDATA[Konu Kücük Button]]></item>
+		<item name="wcf.acp.option.thread_smallbutton_enable.description"><![CDATA[Mesaj´da daha fazla Kücük Button Ekle]]></item>
+	</category>
+
+	<!-- Groups -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.smallbutton"><![CDATA[Kücük Buttonlar]]></item>
+		<item name="wcf.acp.group.option.category.admin.smallbutton.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.user.smallbutton"><![CDATA[Kücük Buttonlar]]></item>
+		<item name="wcf.acp.group.option.category.user.smallbutton.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.smallbutton.canUse"><![CDATA[Kücük Buttonları kullanabilir.]]></item>
+		<item name="wcf.acp.group.option.user.smallbutton.canUse.description"><![CDATA[Bu Grup Üyeleri Kücük Buttonları kullanabilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canUse"><![CDATA[Kücük Buttonları Yönetebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canUse.description"><![CDATA[Bu Grup Üyeleri Kücük Buttonları Yönetebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canAdd"><![CDATA[Kücük Button Ekleyebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canAdd.description"><![CDATA[Bu Grup Üyeleri Kücük Buttonları Ekliyebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canEdit"><![CDATA[Kücük Buttonlari düzenleyebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canEdit.description"><![CDATA[Bu Grup Üyeleri Kücük Buttonları düzenleyebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canDelete"><![CDATA[Kücük Buttonları Silebilir.]]></item>
+		<item name="wcf.acp.group.option.admin.smallbutton.canDelete.description"><![CDATA[Bu Grup Üyeleri Kücük Buttonları Silebilir.]]></item>
+	</category>
+
+	<!-- ACP Small Button -->
+	<category name="wbb.acp.smallbutton">
+		<item name="wbb.acp.smallbutton.list"><![CDATA[Kücük Buttonları göster]]></item>
+		<item name="wbb.acp.smallbutton.list.smallbuttonID"><![CDATA[ID]]></item>
+		<item name="wbb.acp.smallbutton.list.imgSrc"><![CDATA[Icon]]></item>
+		<item name="wbb.acp.smallbutton.list.noItem"><![CDATA[Henüz Kücük Button yok]]></item>
+		<item name="wbb.acp.smallbutton.list.name"><![CDATA[Link Ismi]]></item>
+		<item name="wbb.acp.smallbutton.list.description"><![CDATA[Link Acıklaması]]></item>
+		<item name="wbb.acp.smallbutton.list.linkTo"><![CDATA[Link]]></item>
+		<item name="wbb.acp.smallbutton.add"><![CDATA[Kücük Button Ekle]]></item>
+		<item name="wbb.acp.smallbutton.list.headline"><![CDATA[{#$items} Kücük Button var.]]></item>
+		<item name="wbb.acp.smallbutton.disable"><![CDATA[Kücük Button Kapat]]></item>
+		<item name="wbb.acp.smallbutton.enable"><![CDATA[Kücük Button Ac]]></item>
+		<item name="wbb.acp.smallbutton.delete"><![CDATA[Kücük Button Sil]]></item>
+		<item name="wbb.acp.smallbutton.delete.sure"><![CDATA[Silmek istedignize emin misiniz?]]></item>
+		<item name="wbb.acp.smallbutton.edit.success"><![CDATA[Kücük Button Düzenlendi]]></item>
+		<item name="wbb.acp.smallbutton.edit"><![CDATA[Kücük Button Düzenle]]></item>
+		<item name="wbb.acp.smallbutton.data"><![CDATA[Kücük Button Ekle]]></item>
+		<item name="wbb.acp.smallbutton.description"><![CDATA[Link Acıklaması]]></item>
+		<item name="wbb.acp.smallbutton.linkTo"><![CDATA[Link]]></item>
+		<item name="wbb.acp.smallbutton.add.success"><![CDATA[Kücük Button Eklenmiştir.]]></item>
+		<item name="wbb.acp.smallbutton.imgSrc"><![CDATA[Icon]]></item>
+		<item name="wbb.acp.smallbutton.data"><![CDATA[Kücük Button Ekle]]></item>
+		<item name="wbb.acp.smallbutton.showOrder"><![CDATA[Sıralama]]></item>
+		<item name="wbb.acp.smallbutton.name"><![CDATA[Isim]]></item>
+		<item name="wbb.acp.smallbutton.description.description"><![CDATA[Fare üzerindeki Yazı (Hover)]]></item>
+		<item name="wbb.acp.smallbutton.linkTo.description"><![CDATA[Buraya Kücük Button´un Yönlendirecegi Sayfa Linki yaziniz. Örnek: index.php?page=Index]]></item>
+		<item name="wbb.acp.smallbutton.showOrder.description"><![CDATA[Lütfen Kücük Button´un Pozisyonu´nu seciniz.]]></item>
+		<item name="wbb.acp.smallbutton.name.description"><![CDATA[Kücük Button´a Isim veriniz.]]></item>
+		<item name="wbb.acp.smallbutton.imgSrc.description"><![CDATA[Dikkat - Kullanılan Icon bu klasör de olmasi gerekiyor - wbb/icon/ ´ve boyutu S (S=16px x 16px) ´ve "png" Formatinda olmasi gerekiyor<br>
+																																		Lütfen buraya sadece Icon Ismini yaziniz.<br>
+		Örnek: "iconS.png yerine "icon" yazmaniz gerekiyor.]]></item>
+	</category>
+
+	<!-- ACP Menu -->
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.smallbutton"><![CDATA[Kücük Button]]></item>
+		<item name="wcf.acp.menu.link.smallbutton.add"><![CDATA[Yeni Kücük Button]]></item>
+		<item name="wcf.acp.menu.link.smallbutton.list"><![CDATA[Kücük Buttonları göster]]></item>
+	</category>
+</language>
